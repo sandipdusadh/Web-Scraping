@@ -1,0 +1,47 @@
+# Virtual environment
+
+venv/
+.venv/
+env/
+
+# Python
+
+**pycache**/
+*.py[cod]
+
+# Environment variables
+
+.env
+
+# Database
+
+*.db
+*.sqlite
+*.sqlite3
+
+# Scraped/generated data
+
+data/*
+!data/.gitkeep
+*.csv
+*.json
+*.xlsx
+*.xls
+
+# Logs
+
+*.log
+
+# IDE
+
+.vscode/
+.idea/
+
+# Jupyter
+
+.ipynb_checkpoints/
+
+# OS
+
+.DS_Store
+Thumbs.db
